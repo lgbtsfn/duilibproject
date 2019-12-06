@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="960,680" mininfo="960,680" sizebox="4,4,6,6" roundcorner="0,0" caption="0,0,0,64" showshadow="true" shadowimage="main/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+	<Font id="0" size="12" default="true" share="true"/>
+	<Font id="1" size="20" bold="true"/>
+  
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+
+	<VerticalLayout name="root" bkcolor="0xffbf0b0c">
+		<HorizontalLayout name="caption" height="34">
+			<Container width="145" height="40" bkimage="file='logo.png' source='0,0,140,34' dest='5,3,140,34'" />
+			<Label name="title" width="200" font="1" text="BJCA客户端维护工具" textcolor="#FFEFEFEF"/>
+			<Control />
+			<Button name="menubtn" visible="false" width="28" height="20" tooltip="菜单" normalimage="sysbtn_menu_normal" hotimage="sysbtn_menu_hot" pushedimage="sysbtn_menu_pushed"/>
+			<Button name="minbtn" width="28" height="20" tooltip="最小化" normalimage="sysbtn_mini_normal" hotimage="sysbtn_mini_hot" pushedimage="sysbtn_mini_pushed"/>
+			<Button name="closebtn" width="39" height="20" tooltip="关闭" normalimage="./sysbtn/btn_close_normal.png" hotimage="sysbtn/btn_close_highlight.png" pushedimage="sysbtn/btn_close_down.png"/>
+		</HorizontalLayout>
+		<Control height="30"/>
+		<HorizontalLayout height="30">
+			<Control width="5"/>
+			<Option text="PDF签章" group="tab" bindtablayoutname="tabbody" bindtabindex="0" width="100" font="1" textcolor="#FFEFEFEF" focusedtextcolor="#ff000000" selectedbkcolor="#fffffffff"/>
+			<Option text="office签章" group="tab" bindtablayoutname="tabbody" bindtabindex="1" font="1" width="120" textcolor="#FFEFEFEF" focusedtextcolor="#ff000000" selectedbkcolor="#fffffffff"/>
+			<Option text="网页签章" group="tab" bindtablayoutname="tabbody" bindtabindex="2" font="1" width="100" textcolor="#FFEFEFEF" focusedtextcolor="#ff000000" selectedbkcolor="#fffffffff"/>
+			<Option text="信手书" group="tab" bindtablayoutname="tabbody" bindtabindex="3" font="1" width="100" textcolor="#FFEFEFEF" focusedtextcolor="#ff000000" selectedbkcolor="#fffffffff"/>
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Control width="5"/>
+			<VerticalLayout name="body" bkcolor="#FFFFFFFF">
+				<TabLayout name="tabbody" >
+					<HorizontalLayout selectedid="0">
+						<VerticalLayout>
+							<Label text="pdf签章" height="20" font="1"/>
+							<Label text="版本" height="20" font="1"/>
+							<Label text="配置" height="20" font="1"/>
+							<Label text="维护0" height="20" font="1"/>
+							<Label text="监控" height="20" font="1"/>
+							<Label text="帮助" height="20" font="1"/>
+						</VerticalLayout>
+					</HorizontalLayout>
+					<HorizontalLayout selectedid="1">
+						<VerticalLayout>
+							<Label text="office签章" height="20" font="1"/>
+							<Label text="版本" height="20" font="1"/>
+							<Label text="配置0" height="20" font="1"/>
+							<Label text="维护" height="20" font="1"/>
+							<Label text="监控" height="20" font="1"/>
+							<Label text="帮助" height="20" font="1"/>
+						</VerticalLayout>
+					</HorizontalLayout>
+					<HorizontalLayout selectedid="2">
+						<VerticalLayout>
+							<Label text="网页签章" height="20" font="1"/>
+							<Label text="版本" height="20" font="1"/>
+							<Label text="配置" height="20" font="1"/>
+							<Label text="维护" height="20" font="1"/>
+							<Label text="监控0" height="20" font="1"/>
+							<Label text="帮助" height="20" font="1"/>
+						</VerticalLayout>
+					</HorizontalLayout>
+					<HorizontalLayout selectedid="3">
+						<VerticalLayout>
+							<Label text="信手书" height="20" font="1"/>
+							<Label text="版本" height="20" font="1"/>
+							<Label text="配置" height="20" font="1"/>
+							<Label text="维护" height="20" font="1"/>
+							<Label text="监控" height="20" font="1"/>
+							<Label text="帮助0" height="20" font="1"/>
+						</VerticalLayout>
+					</HorizontalLayout>
+				</TabLayout>
+			</VerticalLayout>
+			<Control width="5"/>
+		</HorizontalLayout>
+		<HorizontalLayout height="30">
+			<Control width="5"/>
+			<Label text="主程序版本:v1.0.0.1" width="120" font="0" textcolor="#FFEFEFEF"/>
+			<Control />
+			<Label text="北京数字认证股份有限公司" width="150" font="0" textcolor="#FFEFEFEF"/>
+		</HorizontalLayout>
+		
+  </VerticalLayout>
+</Window>
